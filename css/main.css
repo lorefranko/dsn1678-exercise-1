@@ -14,6 +14,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #e9e9e9;
 }
 
 *, *:before, *:after {
@@ -23,6 +24,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #fff;
+  border-radius: 4%;
 }
 
 img {
@@ -40,6 +43,8 @@ figure{
 
 .heading{
   font-weight: 600;
+  font-size: 1.2em;
+  margin: 5%;
 }
 
 .table-headings{
@@ -49,4 +54,8 @@ figure{
 
 li{
   list-style-type: none;
+}
+
+ul{
+  float: left;
 }
