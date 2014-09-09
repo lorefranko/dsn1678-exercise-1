@@ -31,14 +31,19 @@ body {
 img {
   display: block;
   width: 100%;
+  margin: 0;
+
 }
 
 figure{
   position: relative;
+
 }
 
 .caption{
   color: #fff;
+  position: absolute;
+  margin: -12% 2%;
 }
 
 .heading{
@@ -58,4 +63,8 @@ li{
 
 ul{
   float: left;
+}
+
+.table{
+  overflow: hidden;
 }
